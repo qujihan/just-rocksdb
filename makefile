@@ -1,5 +1,6 @@
 build_type := DEBUG
 build_tool := Ninja
+# build_tool := Unix Makefiles
 
 .PHONY: all cmake clangd build run clean
 
